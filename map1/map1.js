@@ -10,8 +10,9 @@ houston.bindPopup('City of Houston.')
 southtexas.bindPopup('Area of Southern Texas.')
 var latlngs = [
   [36.491, -103.046],
+  [33.504, -94.125],
   [25.996, -97.377]
 ]
-var polyline = L.polyline([latlngs, { color: 'red' }]).addTo(mymap)
+var polyline = L.polyline([latlngs, { color: 'blue' }]).addTo(mymap)
 mymap.fitBounds(polyline.getBounds())
 polyline.bindPopup('Line Across Texas')
