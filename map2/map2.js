@@ -1,4 +1,4 @@
-var mymap = L.map('mapid').setView([31.69, -100], 8)
+var mymap = L.map('mapid').setView([31.69, -100], 5)
 L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png').addTo(mymap)
 L.tileLayer.wms('https://mesonet.agron.iastate.edu/cgi-bin/wms/us/wwa.cgi', {
   layers: 'warnings_c',
