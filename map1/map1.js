@@ -1,4 +1,4 @@
-var texas = L.map('mapid').setView([31.69, -100], 7)
+var texas = L.map('Texas').setView([31.69, -100], 7)
 L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png').addTo(texas)
 var houston = L.marker([29.801951, -95.355999]).addTo(texas)
 var southtexas = L.polygon([
