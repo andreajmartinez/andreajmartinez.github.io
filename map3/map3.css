@@ -1,1 +1,7 @@
-#mapid { height: 300px }
+#mapid { height: 500px }
+.larger{
+  color:#DA0DDD
+}
+.smaller{
+  color:#FFDAB9
+}
